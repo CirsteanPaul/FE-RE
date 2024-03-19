@@ -1,4 +1,4 @@
-public class Driver extends , User {
+public class Driver extends User {
 
   public Car car;
 
@@ -6,18 +6,15 @@ public class Driver extends , User {
 
   public card paymentCard;
 
-  public List<Review> reviews;
+  public List<String> reviews;
 
   public boolean isWorking;
 
-  public List<Review> getReviews() {
+  public List<String> getReviews() {
   return null;
   }
 
-  public void addReview(Review review) {
-  }
-
-  public void voo() {
+  public void addReview(String review) {
   }
 
   public void newOperation() {

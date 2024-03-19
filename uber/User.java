@@ -32,7 +32,7 @@ public abstract class User {
   return null;
   }
 
-  public float getRating() {
+  public double getRating() {
   return 0.0;
   }
 

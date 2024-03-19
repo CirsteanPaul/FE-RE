@@ -2,6 +2,5 @@ import java.util.Vector;
 
 public interface NotificationSystemFacade {
 
-    public Vector  myNotificationSystemFacadeImpl;
-
+    public Vector myNotificationSystemFacade = new Vector();
 }

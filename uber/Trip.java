@@ -8,7 +8,7 @@ public class Trip extends Client {
 
   public LocalDateTime timeTripEnded;
 
-  public Review review;
+  public String review;
 
   public Integer newAttr;
 
